@@ -1,77 +1,33 @@
-@charset "utf-8";
-
-.title {
-    position: relative;
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.zen-maru gothic-light {
-  font-family: "Zen Maru Gothic", serif;
-  font-weight: 300;
-  font-style: normal;
+.slider {
+  width: 100%;
+  overflow: hidden;
 }
 
-.zen-maru gothic-regular {
-  font-family: "Zen Maru Gothic", serif;
-  font-weight: 400;
-  font-style: normal;
+.slide {
+  display: none;
 }
 
-.zen-maru gothic-medium {
-  font-family: "Zen Maru Gothic", serif;
-  font-weight: 500;
-  font-style: normal;
+.slide.active {
+  display: block;
 }
 
-.zen-maru gothic-bold {
-  font-family: "Zen Maru Gothic", serif;
-  font-weight: 700;
-  font-style: normal;
+.slide img {
+  width: 100%;
+  height: auto;
 }
 
-.zen-maru gothic-black {
-  font-family: "Zen Maru Gothic", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.m-plus rounded 1c-thin {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.m-plus rounded 1c-light {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.m-plus rounded 1c-regular {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.m-plus rounded 1c-medium {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.m-plus rounded 1c-bold {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.m-plus rounded 1c-extrabold {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.m-plus rounded 1c-black {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
 }
